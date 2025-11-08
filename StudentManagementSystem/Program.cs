@@ -10,7 +10,7 @@ using Microsoft.Data.SqlClient;
 internal class Program
 {
     // Database connection string
-    private static readonly string connectionString = "Data Source=localhost,51609;Initial Catalog=StudentManagementSystem;Integrated Security=True;Encrypt=False";
+    private static string connectionString = "Data Source=Almeida\\SQLEXPRESS;Initial Catalog=StudentManagementSystem;Integrated Security=True;TrustServerCertificate=True";
 
     // Main function that serves as the entry point of the program.
     // It displays a menu of options to the user and performs the corresponding actions based on the user's choice.
